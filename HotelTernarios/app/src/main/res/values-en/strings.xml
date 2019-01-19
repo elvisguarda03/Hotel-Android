@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hotel Ternarios</string>
+    <string name="txt_dia">Day</string>
+    <string name="txt_dias">Days</string>
+    <string name="txt_brasil">Brazil</string>
+    <string name="txt_especiais">Special</string>
+    <string name="txt_configuracao">Settings</string>
+    <string name="txt_nome">Name</string>
+    <string name="txt_nomeUsuario">Username</string>
+    <string name="txt_email">Email address</string>
+    <string name="txt_senha">Password</string>
+    <string name="txt_Cpf">SSA</string>
+    <string name="txt_cadastro">Register</string>
+    <string name="bt_Cadastro">Register</string>
+    <string name="txt_receber_email">"Want to receive emails with promotions, last minute offers and information about hostin? "</string>
+    <string name="txt_aceitar_termos">By signing up, you accept the terms, conditions and privacy policy</string>
+    <string name="bt_cadastro">Register</string>
+    <string name="txt_ja_tem_conta">Already have an account? Sign in</string>
+    <string name="txt_sobrenome">Last name</string>
+    <string name="txt_banner_description">Packages initial banner</string>
+    <string name="txt_hotel">Hotel Ternarius</string>
+    <string name="txt_imagem">Image of cities</string>
+    <string name="txt_preco">Final price:</string>
+    <string name="txt_realizaPag">MAKE PAYMENT</string>
+    <string name="txt_name_resumo_pacote">Package summary</string>
+    <string name="img_pacote">Package image</string>
+    <string name="txt_pagamento">Enter the credit card information you want to use for payment</string>
+    <string name="txt_value_compra">Purchase value:</string>
+    <string name="txt_numb_card">Card number</string>
+    <string name="txt_nome_cartao">Name on Card</string>
+    <string name="txt_finaliza_compra">FIND BUY</string>
+    <string name="txt_mes_cartao">MM</string>
+    <string name="txt_ano_cartao">AA</string>
+    <string name="txt_digito_card">CVC</string>
+    <string name="txt_title_APPBAR_pagamento">Payment</string>
+    <string name="txt_resume_compra">Purchase summary</string>
+    <string name="txt_congrats">Congratulations!</string>
+    <string name="txt_realizada">Successful purchase :)</string>
+    <string name="txt_resumo_compra_confira">Check the summary of the purchase:</string>
+    <string name="txt_wait_dialog">Please wait...</string>
+    <string name="txt_sai">EXIT</string>
+    <string name="txt_reserva">RESERVE</string>
+    <string name="txt_de">of</string>
+</resources>

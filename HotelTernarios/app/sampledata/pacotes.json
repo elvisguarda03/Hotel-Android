@@ -1,0 +1,22 @@
+{
+  "pacotes": [
+    {
+      "tipo": "Basic",
+      "imagem": "@drawable/sp_basic",
+      "dias": "2 dias",
+      "preco": "243,99"
+    },
+    {
+      "tipo": "Standard",
+      "imagem": "@drawable/sp_standart",
+      "dias": "1 dia",
+      "preco": "R$ 754,20"
+    },
+    {
+      "tipo": "Ultimate",
+      "imagem": "@drawable/sp_ultimate",
+      "dias": "1 dia",
+      "preco": "R$ 1500,99"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "278602759065",
+    "firebase_url": "https://hotel-ternarius.firebaseio.com",
+    "project_id": "hotel-ternarius",
+    "storage_bucket": "hotel-ternarius.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278602759065:android:94caedfe31ed0c5e",
+        "android_client_info": {
+          "package_name": "br.com.guacom.hotelternarios"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278602759065-sj89pda8ikrgmn779elg1cabsq2ub4eo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.guacom.hotelternarios",
+            "certificate_hash": "562e0f0b2e4457c119872f044d453bb72295e475"
+          }
+        },
+        {
+          "client_id": "278602759065-v27ch5melp0s8h4rvfognfm282b6ft8t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWEln8D15HC6yHPSP1UiQk1rpiCOS_Q_I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278602759065-v27ch5melp0s8h4rvfognfm282b6ft8t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/franscico"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="110dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/menu_reservar"
+            android:layout_width="wrap_content"
+            android:text="@string/txt_reserva"
+            android:elevation="40dp"
+            android:textSize="22dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@drawable/botao_redondo_laranja"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/menu_sair"
+            android:layout_width="wrap_content"
+            android:hint="@string/txt_sai"
+            android:textSize="22dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:elevation="40dp"
+            android:gravity="center"
+            android:background="@drawable/botao_redondo_laranja"
+            android:textAlignment="center"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

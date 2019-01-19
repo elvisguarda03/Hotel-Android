@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/resumo_compra_banner"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/txt_banner_description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:color/holo_orange_dark" />
+
+    <TextView
+        android:id="@+id/resumo_compra_congrats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/txt_congrats"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/resumo_compra_banner"
+        app:layout_constraintStart_toStartOf="@+id/resumo_compra_banner"
+        app:layout_constraintTop_toTopOf="@+id/resumo_compra_banner" />
+
+    <TextView
+        android:id="@+id/resumo_compra_realizada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/txt_realizada"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/resumo_compra_congrats"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resumo_compra_congrats" />
+
+    <TextView
+        android:id="@+id/resumo_compra_confira"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/txt_resumo_compra_confira"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resumo_compra_banner" />
+
+    <ImageView
+        android:id="@+id/resumo_compra_ft"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        tools:srcCompat="@drawable/sp_ultimate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resumo_compra_confira" />
+
+    <TextView
+        android:id="@+id/resumo_compra_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resumo_compra_ft"
+        tools:text="Ultimate"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/resumo_compra_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        tools:text="08/12 - 10/12 de 2017"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/resumo_compra_type"
+        app:layout_constraintTop_toBottomOf="@+id/resumo_compra_type" />
+
+    <TextView
+        android:id="@+id/resumo_compra_valor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        tools:text="R$ 4502,00"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/resumo_compra_data"
+        app:layout_constraintTop_toBottomOf="@+id/resumo_compra_data" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/preto"
+    tools:context=".activity.SplashActivity">
+
+    <ImageView
+        android:id="@+id/lista_pacotes_banner_inicial"
+        android:layout_width="454dp"
+        android:layout_height="492dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="29dp"
+        app:srcCompat="@mipmap/ic_launcher_hotelt"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="88dp"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="439dp" />
+</RelativeLayout>
